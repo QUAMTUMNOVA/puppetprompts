@@ -46,6 +46,15 @@
     .socials a:hover {
       color: #fff;
     }
+    .hero-image {
+      margin: 2rem auto;
+      max-width: 700px;
+      width: 100%;
+    }
+    .hero-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
     .cta {
       background-color: #facc15;
       color: #000;
@@ -70,21 +79,13 @@
       color: #4ade80;
       margin-bottom: 1rem;
     }
-    .examples {
-      display: grid;
-      gap: 2rem;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      max-width: 1000px;
-      margin: 2rem auto;
+    .promo-square {
+      margin: 2rem auto 0;
+      max-width: 400px;
     }
-    .example {
-      background: #1a1a1a;
-      padding: 1.5rem;
+    .promo-square img {
+      width: 100%;
       border-radius: 10px;
-      border: 1px solid #333;
-    }
-    .example h3 {
-      color: #facc15;
     }
     footer {
       margin-top: 4rem;
@@ -107,36 +108,32 @@
   <h1><a href="/">🧵 Puppet Prompts</a></h1>
   <p class="subtitle">AI-generated puppet scripts for creators, classrooms, and comedy lovers</p>
 
-  <!-- 🔽 Socials below title -->
   <div class="socials">
     <a href="https://facebook.com/quantumnovaHQ" target="_blank">Facebook</a>
     <a href="https://instagram.com/quantumnova_hq" target="_blank">Instagram</a>
   </div>
 
-  <a href="https://puppetprompts.gumroad.com" target="_blank" class="cta">🎭 Download Prompt Packs</a>
-
-  <div class="section">
-    <h2>🎬 What’s Inside</h2>
-    <div class="examples">
-      <div class="example">
-        <h3>Prompt #12 – “The Pizza Protest”</h3>
-        <p>A group of puppets go on strike after discovering anchovies in the school lunch program.</p>
-      </div>
-      <div class="example">
-        <h3>Prompt #21 – “Toilet Time Trials”</h3>
-        <p>Barry the Bathroom Brush holds a race down the pipes to retrieve a lost ring.</p>
-      </div>
-      <div class="example">
-        <h3>Prompt #35 – “Mayor Meow”</h3>
-        <p>A talking cat puppet runs for mayor — and wins. Chaos follows.</p>
-      </div>
-    </div>
+  <div class="hero-image">
+    <img src="/assets/starter-chaos-rectangle.png" alt="Puppet Prompts Starter Chaos Promo Banner">
   </div>
 
+  <a href="https://puppetprompts.gumroad.com/l/starter-chaos" target="_blank" class="cta">🎭 Download the Free Pack</a>
+
   <div class="section">
-    <h2>💡 Why Puppet Prompts?</h2>
-    <p>Because puppets are the future of storytelling. And we let AI do the weird, funny, and wildly creative work for you.</p>
-    <p>Made by <strong>QUANTUMNOVA</strong>. Powered by chaos. Fueled by AI.</p>
+    <h2>📦 What You Get</h2>
+    <div class="promo-square">
+      <img src="/assets/starter-chaos-square.png" alt="Starter Chaos Pack - Puppet Prompts">
+    </div>
+    <p style="margin-top: 1.5rem;">
+      Download 3 original AI-generated puppet scripts to perform, remix, or take to the stage.<br><br>
+      Includes:
+      <ul style="list-style: none; padding-left: 0; line-height: 1.6;">
+        <li>🍕 “The Pizza Protest”</li>
+        <li>🚽 “Toilet Time Trials”</li>
+        <li>🐱 “Mayor Meow”</li>
+      </ul>
+    </p>
+    <p>Perfect for content creators, classrooms, puppet lovers and sock-based chaos agents.</p>
   </div>
 
   <footer>
